@@ -1,7 +1,9 @@
 ;;; init.el --- init.el -*- lexical-binding: t; -*-
 
 ;;; Commentary:
-;;; elderica's Emacs init.el
+;;; elderica's minimal initialization file based on `eon.el`.
+;;; Don't forget to download `eon.el`!
+;;; > git clone https://github.com/monkeyjunglejuice/emacs.onboard.git ~/.emacs.onboard
 
 ;;; Code:
 ;; this enables this running method
