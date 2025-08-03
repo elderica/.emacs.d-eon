@@ -27,6 +27,8 @@
  '(which-func ((t (:foreground "lawn green"))) nil))
 (which-function-mode 1)
 
+(keymap-global-set "C-c e" 'pp-macroexpand-last-sexp)
+
 (keymap-global-set "M-m" '#[nil ((forward-whitespace 1)) nil nil nil nil])
 (keymap-global-set "M-n" '#[nil ((forward-whitespace -1)) nil nil nil nil])
 
